@@ -5,6 +5,7 @@ if numb < 2:
 elif numb >= 2:
     for i in range(2,numb):
         if numb % i == 0:
+            print(i)
             check = True
             break
 if check == True:
